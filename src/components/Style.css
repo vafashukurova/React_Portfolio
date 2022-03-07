@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/concrete_seamless.png");
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.navbar {
+
+    background-color: #203647;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+#navbarSupportedContent a {
+    /* font-size: 20px;
+    padding-left: 20px; */
+    color: #C9C3BA;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+#navbarSupportedContent a:hover {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.col-7 {
+    width: 650px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    margin-top: 100px;
+}
+
+h2, h3 {
+    color: #EF9A20;
+    border-color: #ddd;
+    font-weight: 600;
+}
+
+p, label {
+    color: #777;
+    font-size: 20px;
+}
+
+#project-container {
+    position: relative;
+}
+
+#project-container .project-name {
+    background-color: #c8d8e4;
+    padding: 1em 0;
+    color: #858E90;
+    text-align: center;
+    position: absolute;
+    font-size: 1.1em;
+    left: 15px;
+    bottom: 60px;
+    width: 89.8%;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #203647;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #2e2e2e;
+}
